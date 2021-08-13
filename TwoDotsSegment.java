@@ -8,6 +8,7 @@ class Segment{
         int b1 = scanner.nextInt();
         int a2 = scanner.nextInt();
         int b2 = scanner.nextInt();
+        scanner.close();
         if (a1<=a2){
             if(b1<a2&&b1<b2){
                 System.out.println("Пересечения нет");
